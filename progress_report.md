@@ -17,4 +17,7 @@ I reviewed the Terms of Service of Genius to make sure I can use the lyrics for 
 I have updated my `bs4` and installed the `lyricsgenius` library from John Miller's project to be prepared for scraping when the time comes.
 
 ## Log 3: March 14, 2021
-I tried to make sense of the code to download the lyrics but ran into some roadblocks. Will attempt to reconfigure tomorrow. I'm just a bit lost and I got frustrated with understanding the code to get exactly what I wanted. 
+I tried to make sense of the code to download the lyrics but ran into some roadblocks. Will attempt to reconfigure tomorrow. I'm just a bit lost and I got frustrated with understanding the code to get exactly what I wanted.
+
+## Log 4: March 15, 2021
+After talking with Joey and Na-Rae, I discovered that the best way to initialize the Genius API code from *John Miller's LyricGenius* without pushing sensitive data to my repository was to put the token in a `.txt` file and placed into the `.gitignore` in order to not be tracked by GitHub. I will then read the .txt file into the Python script instead of a Jupyter notebook file as originally planned, at the direction of Na-Rae because apparently Jupyter notebook doesn't handle scraping well. I will attempt doing this task tomorrow.

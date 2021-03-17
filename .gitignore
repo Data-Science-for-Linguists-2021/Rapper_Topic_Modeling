@@ -10,3 +10,5 @@ desktop.ini
 temp/
 data/
 private/
+#------------------ files to ignore
+my_token.txt
