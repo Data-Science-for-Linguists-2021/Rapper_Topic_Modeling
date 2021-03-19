@@ -10,5 +10,7 @@ desktop.ini
 temp/
 data/
 private/
+trucks-and-beer/
+rap_lyrics/
 #------------------ files to ignore
 my_token.txt
