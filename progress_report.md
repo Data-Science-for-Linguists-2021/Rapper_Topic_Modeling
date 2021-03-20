@@ -27,3 +27,6 @@ After playing around with the code and witnessing how it worked, I decided to li
 
 ## Log 6: March 19, 2021
 I downloaded all of my male rappers' lyrics; thus, bringing my current total to 1000 song lyrics from Black male Rappers. Tomorrow I will download half of the Black female rappers' lyrics (5 artists). Hopefully on Sunday, I will be able to start working with cleaning the data and putting it into the following data frames: All artists/lyrics, Male artists and Female artists. Then on Monday, I should be able to do begin learning about LDA Topic Modelling and building word clouds.
+
+## Log 7: March 20, 2021
+I have downloaded all of my female rappers' lyrics however 2 artists had less than 100 songs on Genius (Remy Ma-86, Cardi B-76). The total lyrics compiled without limitation or cleaning outside of the excluded terms parameter that I set: **1962**. I am expecting that I will have to filter out lyrics that have **"skit"** and **clean** in the title. I will ahve to filter out duplicate songs I saw a few in the clean section that are duplicates and just the same titles with the names spelled differently. I will look into this tomorrow when I'm cleaning the data. I'm expecting the number of lyrics from each side (male and female) to go down maybe to around **1700**.
