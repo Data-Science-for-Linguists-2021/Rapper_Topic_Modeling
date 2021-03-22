@@ -30,3 +30,6 @@ I downloaded all of my male rappers' lyrics; thus, bringing my current total to 
 
 ## Log 7: March 20, 2021
 I have downloaded all of my female rappers' lyrics however 2 artists had less than 100 songs on Genius (Remy Ma-86, Cardi B-76). The total lyrics compiled without limitation or cleaning outside of the excluded terms parameter that I set: **1962**. I am expecting that I will have to filter out lyrics that have **"skit"** and **clean** in the title. I will ahve to filter out duplicate songs I saw a few in the clean section that are duplicates and just the same titles with the names spelled differently. I will look into this tomorrow when I'm cleaning the data. I'm expecting the number of lyrics from each side (male and female) to go down maybe to around **1700**.
+
+## Log 8: March 21, 2021
+I went to parse through the lyrical data and realized that I need to compile the lyrical files into Male lyrics and Female lyrics to make the different dataframes necessary for my analysis. I have them in separate files but I need to compile the individual `.json` files. I tried to do some digging and nothing that I tried would work properly. I will ask for help tomorrow and try this task.
