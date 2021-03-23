@@ -53,7 +53,7 @@ I reviewed the TOS for the Genius data to ensure how I should manipulate and bes
 7. J-Cole (100)
 8. Lil Wayne (100)
 9. Kanye West (100)
-10. Drake (100)
+10. Drake (100) <br>
 **Sum total: 10 Artists / 1000 lyrics**
 
 **10 Female Artists:**
@@ -66,7 +66,7 @@ I reviewed the TOS for the Genius data to ensure how I should manipulate and bes
 7. Remy Ma (86)
 8. Trina (100)
 9. Megan Thee Stallion (100)
-10. Cardi B (76)
+10. Cardi B (76) <br>
 **Sum total: 10 Artists / 962 lyrics**
 
 **Grand Total: 20 artists / 1962 lyrics**
@@ -109,5 +109,7 @@ I am expecting that I will have to filter out lyrics that have **"skit"** and **
 ## Decision on licensing for my project
 
 I chose to utilize the MIT license.
-    A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
+
+> A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
+
 My project is a derivation of `johnwmillr` LyricsGenius project software, who also uses an MIT license. Therefore, it seems right to use this licensing as well.
