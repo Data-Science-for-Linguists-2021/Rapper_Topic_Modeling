@@ -33,3 +33,6 @@ I have downloaded all of my female rappers' lyrics however 2 artists had less th
 
 ## Log 8: March 21, 2021
 I went to parse through the lyrical data and realized that I need to compile the lyrical files into Male lyrics and Female lyrics to make the different dataframes necessary for my analysis. I have them in separate files but I need to compile the individual `.json` files. I tried to do some digging and nothing that I tried would work properly. I will ask for help tomorrow and try this task.
+
+## Log 9: March 22, 2021
+I cannot get a single file to read into a data frame (see l`yrical_data_analysis.ipynb`). I asked for help, but we will ahve to reconvene another data. Proud that I was able to get all of the files that I wanted onto my computer. Now to just figure out how to read them into a dataframe so that I can begin the cleaning process. I found a tutorial that does LDA topic modelling on [YouTube](https://www.youtube.com/watch?v=wKW8z6zqCFo); however, this works with CSV files and not JSON so still back in the same place I started. Hopefully, I, with help from Na-Rae and Joey, will be able to figure this out. But until then, project on hold.
