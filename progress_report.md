@@ -113,3 +113,7 @@ I chose to utilize the MIT license.
 > A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
 
 My project is a derivation of `johnwmillr` LyricsGenius project software, who also uses an MIT license. Therefore, it seems right to use this licensing as well.
+
+# Log 10: March 25, 2021
+
+I was finally able to populate a data frame with the correct information with Joey's help. I have built a toy data frame with one artist's information so far. Will return to create the 3 data frames needed for my analysis: Male, Female, All. These will no doubt need cleaning, but we will cross that bridge when we get there.
