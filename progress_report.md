@@ -121,3 +121,7 @@ I was finally able to populate a data frame with the correct information with Jo
 # Log 11: April 12, 2021
 
 I tried to populate the `mlyrics_df` data frame with all of the male lyrics but it didn't work. The code only populates the data frame with the last listed file rather than iterate through all of them in the `m_filenames` list. Not sure what to do. Will revisit in the morning.
+
+# Log 12: April 13, 2021
+
+I finally populated the `mlyrics_df` and the `flyrics_df` which are the male Rapper data and female Rapper data, respectively. I haven't had the chance to clean it. I hope to accomplish this task sometime this week so that I can start my LDA Topic Modeling and subsequent analysis. I pray the rest of this project goes a lot smoother but it is too soon to tell.
