@@ -117,3 +117,7 @@ My project is a derivation of `johnwmillr` LyricsGenius project software, who al
 # Log 10: March 25, 2021
 
 I was finally able to populate a data frame with the correct information with Joey's help. I have built a toy data frame with one artist's information so far. Will return to create the 3 data frames needed for my analysis: Male, Female, All. These will no doubt need cleaning, but we will cross that bridge when we get there.
+
+# Log 11: April 12, 2021
+
+I tried to populate the `mlyrics_df` data frame with all of the male lyrics but it didn't work. The code only populates the data frame with the last listed file rather than iterate through all of them in the `m_filenames` list. Not sure what to do. Will revisit in the morning.
