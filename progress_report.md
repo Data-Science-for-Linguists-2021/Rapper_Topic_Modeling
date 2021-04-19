@@ -125,3 +125,7 @@ I tried to populate the `mlyrics_df` data frame with all of the male lyrics but 
 # Log 12: April 13, 2021
 
 I finally populated the `mlyrics_df` and the `flyrics_df` which are the male Rapper data and female Rapper data, respectively. I haven't had the chance to clean it. I hope to accomplish this task sometime this week so that I can start my LDA Topic Modeling and subsequent analysis. I pray the rest of this project goes a lot smoother but it is too soon to tell.
+
+# Log 13: April 18, 2021
+
+I found out that I populated the data frames wrong (male: 19600 and female: 186400) and the for loop I originally had appended the data to the data frame multiple times. I took out the for loop and the data frame populated correctly. I began looking into the abnormalities of the data (duplicates, no lyrics, miscellaneous characters and headings). I will officially clean tomorrow and hopefully tokenize and get token information tomorrow.
