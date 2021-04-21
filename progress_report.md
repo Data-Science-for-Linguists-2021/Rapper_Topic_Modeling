@@ -132,6 +132,8 @@ I found out that I populated the data frames wrong (male: 19600 and female: 1864
 
 # Log 14: April 20, 2021
 
+I cleaned the data frames `mlyrics_df` and `flyrics_df`. I also concatenated the two data frames into `all_lyrics_df` details below:
+
 *I am hesitant to drop duplicates for song titles because there could be repeat title names for different artists and I would be dropping out this data unnecessarily. I think I will have to go through each artist individually and note which ones to drop in particular.*
 >this might be the best way to go because there are some non-lyrical things in there that I will need to filter out as well.
 
