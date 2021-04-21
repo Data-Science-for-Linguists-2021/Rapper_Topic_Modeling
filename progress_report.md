@@ -129,3 +129,49 @@ I finally populated the `mlyrics_df` and the `flyrics_df` which are the male Rap
 # Log 13: April 18, 2021
 
 I found out that I populated the data frames wrong (male: 19600 and female: 186400) and the for loop I originally had appended the data to the data frame multiple times. I took out the for loop and the data frame populated correctly. I began looking into the abnormalities of the data (duplicates, no lyrics, miscellaneous characters and headings). I will officially clean tomorrow and hopefully tokenize and get token information tomorrow.
+
+# Log 14: April 20, 2021
+
+*I am hesitant to drop duplicates for song titles because there could be repeat title names for different artists and I would be dropping out this data unnecessarily. I think I will have to go through each artist individually and note which ones to drop in particular.*
+>this might be the best way to go because there are some non-lyrical things in there that I will need to filter out as well.
+
+**Observations with cleaning `mlyrics_df`**:
+- Through sampling the dataframe, I was able to find several problems
+    - certain rows were not actual songs
+        - lyrics were empty, contained a link, contained just a random character (e.g. '.'), there were also interviews or short snippets of songs
+        - I verified snippet/interview from looking up the 'song' on Genius.com
+    - there were duplicate lyrics (similar titles)
+        - These rows have been dropped
+- `mlyrics_df` now contains the following data set up:
+    - 10 artists, 982 values, 963 unique titles, 982 unique lyrics
+    - **Lil Wayne** is only artist with 100
+    - **Nas, Snoop Dogg, Kendrick Lamar, The Notorious B.I.G.** with 99  
+    - **J. Cole** with 98 **JAY-Z, Kanye West, 2Pac, Drake** with 97
+- The data is a little imbalanced but nothing to call home about.
+- I still need to take out punctuation (except dashes because they can be crucial to the lyrical content) and newline characters
+
+**Observations with cleaning `flyrics_df`**:
+- Through sampling the data frame, I was able to find several problems
+    - certain rows were not songs or were songs with featured artists
+        - there were rows with no lyrics
+        - there were songs that were skits
+        - there were really short song snippets
+        - I verified snippet/interview from looking up the 'song' on Genius.com
+    - there were duplicate lyrics (similar titles)
+        - These rows have been dropped
+- `flyrics_df` now contains the following data set up:
+    - 10 artists, 927 values, 916 unique titles, 927 unique lyrics
+    - No artists with 100
+        - **Queen Latifah** with 99
+        - **Trina, Megan Thee Stallion, Missy Elliott, Rico Nasty** with 98
+        - **Lil' Kim** with 96
+        - **Nicki Minaj** with 95
+        - **Rapsody** with 93
+        - **Remy Ma** with 82
+        - **Cardi B** with 70
+- The data is a little imbalanced but nothing to call home about. It was already imbalanced
+    - it is especially imbalanced when comparing it to `mlyrics_df`
+- I still need to take out punctuation (except dashes because they can be crucial to the lyrical content) and newline characters
+
+*I acknowledge that all of the songs taken from these artists are not all (fully) Rap songs (Queen Latifah, Missy Elliott, Nicki Miniaj)*
+>    There isn't much I can do about that at this point. I will just have to be careful about generalizing the data in certain ways. This just happens to be a limitation for the way I scraped the data in the first place
