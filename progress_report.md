@@ -177,3 +177,14 @@ I cleaned the data frames `mlyrics_df` and `flyrics_df`. I also concatenated the
 
 *I acknowledge that all of the songs taken from these artists are not all (fully) Rap songs (Queen Latifah, Missy Elliott, Nicki Miniaj)*
 >    There isn't much I can do about that at this point. I will just have to be careful about generalizing the data in certain ways. This just happens to be a limitation for the way I scraped the data in the first place
+
+# Log 15: April 21, 2021
+
+I added the following columns to the data frame `all_lyrics_df`:
+- **tokens** (tokens of the lyrics)
+- **token_count** (numerical count of tokens)
+- **type_count** (numerical count of types)
+- **ttr** (type-token ratio)
+- **gender** (codifies data M=male artist, F=female artist)
+
+I reordered the columns so that gender follows directly after the artist name column. Clustering, LDA and word clouds to be attempted tomorrow!
