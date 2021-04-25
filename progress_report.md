@@ -175,7 +175,7 @@ I cleaned the data frames `mlyrics_df` and `flyrics_df`. I also concatenated the
     - it is especially imbalanced when comparing it to `mlyrics_df`
 - I still need to take out punctuation (except dashes because they can be crucial to the lyrical content) and newline characters
 
-*I acknowledge that all of the songs taken from these artists are not all (fully) Rap songs (Queen Latifah, Missy Elliott, Nicki Miniaj)*
+*I acknowledge that all of the songs taken from these artists are not all (fully) Rap songs (Queen Latifah, Missy Elliott, Nicki Minaj)*
 >    There isn't much I can do about that at this point. I will just have to be careful about generalizing the data in certain ways. This just happens to be a limitation for the way I scraped the data in the first place
 
 # Log 15: April 21, 2021
@@ -188,3 +188,7 @@ I added the following columns to the data frame `all_lyrics_df`:
 - **gender** (codifies data M=male artist, F=female artist)
 
 I reordered the columns so that gender follows directly after the artist name column. Clustering, LDA and word clouds to be attempted tomorrow!
+
+# Log 16: April 24, 2021
+
+I downloaded `spaCy` library to see if a customized `spaCy` tokenizer can create a better topic model. I did not implement this must be researched.
